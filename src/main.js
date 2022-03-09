@@ -14,12 +14,14 @@ const config = {
       gravity: { y: 0 },
     },
   },
+  scene: [TitleScreen, Game],
 };
 
 const game = new Phaser.Game(config);
 
-game.scene.add("titlescreen", TitleScreen);
-game.scene.add("game", Game);
+// game.scene.add("titlescreen", TitleScreen);
+// Logic
+// game.scene.add("game", Game);
 
 // Render this scene
-game.scene.start("game");
+// game.scene.start("game");
