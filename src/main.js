@@ -18,10 +18,3 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
-
-// game.scene.add("titlescreen", TitleScreen);
-// Logic
-// game.scene.add("game", Game);
-
-// Render this scene
-// game.scene.start("game");
